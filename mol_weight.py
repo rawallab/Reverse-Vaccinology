@@ -26,7 +26,7 @@ if __name__=="__main__":
   if os.path.exists(dirpath) and os.path.isdir(dirpath):
     shutil.rmtree(dirpath)
   os.mkdir(cudir+"/"+name)
-  subprocess.call(["cp",infl,cudir+"/input_files/"]) 
+   
   fasta_sequence = SeqIO.parse(open(cudir+"/input_files/"+filename),"fasta")
   for fasta in fasta_sequence:
            
