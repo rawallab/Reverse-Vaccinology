@@ -1,5 +1,5 @@
 import subprocess,os,pandas as pd,time,glob,re,sys,shutil
-from multiprocessing import Process
+
 from Bio import SeqIO
 from Bio.SeqUtils.ProtParam import ProteinAnalysis
 from Bio.Seq import Seq
