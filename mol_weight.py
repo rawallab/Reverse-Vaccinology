@@ -27,7 +27,7 @@ if __name__=="__main__":
     shutil.rmtree(dirpath)
   os.mkdir(cudir+"/"+name)
    
-  fasta_sequence = SeqIO.parse(open(cudir+"/input_files/"+filename),"fasta")
+  fasta_sequence = SeqIO.parse(open(cudir+"/"+filename),"fasta")
   for fasta in fasta_sequence:
            
         name1, sequence = fasta.id, str(fasta.seq)
