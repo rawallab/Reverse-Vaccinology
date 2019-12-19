@@ -1,0 +1,1 @@
+perc_identity	evalue	bit_score	alignment_length	query_length	subject_length	Query_Coverage	Queryid	Query_Protein_name	SSeqid	Subject_Protein_name
